@@ -6,13 +6,13 @@
 	temperature_change_delay = 3000
 	#Number of ticks to delay changing the player's temperature after their temperature changes when wearing armor.
 	#Range: > 0
-	armor_temperature_change_delay = 100 
+	armor_temperature_change_delay = 100
 	#Number of ticks to delay changing the player's temperature after their temperature changes when holding an item.
 	#Range: > 0
 	handheld_temperature_change_delay = 375
 	#Number of ticks to delay changing the player's temperature after their temperature changes when affected by a player-based temperature modifier.
 	#Range: > 0
-	player_temperature_change_delay = 125
+	player_temperature_change_delay = 350
 	#Number of ticks to delay changing the player's temperature after their temperature changes when rebounding from an extreme temperature.
 	#Range: > 0
 	extremity_rebound_temperature_change_delay = 250
@@ -23,7 +23,7 @@
 	#Range: > 0
 	climate_clemency_duration = 6000
 	#Whether or not Climate Clemency should be granted when respawning.
-	climate_clemency_respawning = false
+	climate_clemency_respawning = true
 
 [altitude]
 	#Y level to drop the temperature at when above
@@ -34,12 +34,12 @@
 	temperature_rise_altitude = -64
 	#Y level above which environmental modifiers are applied
 	#Range: -64 ~ 256
-	environmental_modifier_altitude = 50
+	environmental_modifier_altitude = 90
 
 [blocks]
 	#The proximity which constitutes near a heat or cool source
 	#Range: 1 ~ 16
-	near_heat_cool_proximity = 8
+	near_heat_cool_proximity = 6
 
 [immersion]
 	#Amount to change the temperature by when on fire.
@@ -50,7 +50,7 @@
 	powdered_snow_temperature_change = -3
 	#Amount to change the temperature by when wet.
 	#Range: -4 ~ 4
-	wet_temperature_change = -2
+	wet_temperature_change = -1
 	#Amount to change the temperature by when snowing.
 	#Range: -4 ~ 4
 	snow_temperature_change = -2
